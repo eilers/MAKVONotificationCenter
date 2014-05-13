@@ -516,7 +516,6 @@
 		FAEC6DC114875C66000587CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/MAKVONotificationCenter_iOS.dst;
 				OTHER_LDFLAGS = "-ObjC";
@@ -529,7 +528,6 @@
 		FAEC6DC214875C66000587CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/MAKVONotificationCenter_iOS.dst;
 				OTHER_LDFLAGS = "-ObjC";
